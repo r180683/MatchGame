@@ -1,0 +1,108 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2c0e3a;
+  padding: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+.website-logo {
+  width: 100px;
+  height: 40px;
+}
+.nav-items-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-item {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+.span-text {
+  color: #fec653;
+  font-size: 18px;
+}
+.timer-reset-image {
+  width: 30px;
+  height: 30px;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  min-height: 90vh;
+  background-size: cover;
+}
+.match-image {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.things-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+.trophy {
+  width: 400px;
+  height: 300px;
+}
+.game-end-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  min-height: 110vh;
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+.score {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.reset-btn {
+  cursor: pointer;
+  height: 60px;
+  background-color: #cf60c8;
+  display: flex;
+  border-radius: 12px;
+  width: 200px;
+  border: 0px;
+  padding: 1px;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+  justify-content: center;
+}
+.reset-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

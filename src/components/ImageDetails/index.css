@@ -1,0 +1,10 @@
+.image-container {
+  display: flex;
+  margin-right: 13px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 90px;
+  cursor: pointer;
+}
+.thumbnail-image {
+}
